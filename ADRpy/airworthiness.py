@@ -761,7 +761,7 @@ class CertificationSpecifications:
             fig.canvas.set_window_title('ADRpy airworthiness.py')
 
             ax = fig.add_axes([0.1, 0.1, 0.7, 0.8])
-            ax.set_title("EASA CS-23 Amendment 4 - Flight Envelope ({0} Category)".format(catg_names[category]),
+            ax.set_title("EASA CS-25 - Flight Envelope (Large Aeroplane Category)".format(catg_names[category]),
                          fontsize=fontsize_title)
             ax.set_xlabel("Airspeed [KEAS]", fontsize=fontsize_label)
             ax.set_ylabel("Load Factor [-]", fontsize=fontsize_label)
