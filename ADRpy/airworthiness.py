@@ -235,9 +235,9 @@ class CertificationSpecifications:
         # (c) Gust Envelope
 
         # (c)(1)
-        gustb_mps = np.interp(altitude_m, [co.feet2m(20000), co.feet2m(50000)], [co.feet2m(66), co.feet2m(38)]),
-        gustc_mps = np.interp(altitude_m, [co.feet2m(20000), co.feet2m(50000)], [co.feet2m(50), co.feet2m(25)]),
-        gustd_mps = np.interp(altitude_m, [co.feet2m(20000), co.feet2m(50000)], [co.feet2m(25), co.feet2m(12.5)])
+        gustb_mps = np.interp(altitude_m, [co.feet2m(15000), co.feet2m(60000)], [co.feet2m(44), co.feet2m(20.86)]),
+        gustc_mps = np.interp(altitude_m, [co.feet2m(15000), co.feet2m(60000)], [co.feet2m(44), co.feet2m(20.86)]),
+        gustd_mps = np.interp(altitude_m, [co.feet2m(15000), co.feet2m(60000)], [co.feet2m(22), co.feet2m(20.86/2)])
 
         gustmps_dict['norm'].update({'Uc_mps': gustc_mps[0], 'Ud_mps': gustd_mps})
 
