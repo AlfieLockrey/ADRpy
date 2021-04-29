@@ -748,7 +748,7 @@ class CertificationSpecifications:
             del coords_poi['B']
 
         yposlim = max(max_ygust, coords_poi['C'][1], coords_poi['D'][1])
-        yneglim = min(coords_poi['E'][1], coords_poi['F'][1])
+        yneglim = min(coords_poi['E'][1], coords_poi['F'][1], coords_poi['G'][1])
 
         if show:
             # Plotting parameters
